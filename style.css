@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Bitter&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+	background-color: rgb(87, 189, 130);
+	transition: background 0.5s ease;
+	position: relative;
+	font-family: "Bitter", serif;
+}
+
+h1 {
+	font-size: 50px;
+	margin: 30px 0;
+}
+h3 {
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+button {
+	width: 100px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: red;
+	font-size: 30px;
+	background-color: #a7a2a1;
+}
